@@ -1,3 +1,18 @@
+cd Laravel   -   Установить путь до файлов
+php artisan migrate   -   Миграция
+php artisan serve   -   Запуск
+
+При первом запуске сервера раскомментировать строчку
+"require_once 'sql/migration.php';"
+чтобы запустить вторую часть миграции
+(местоположение Laravel/public/index.php
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
